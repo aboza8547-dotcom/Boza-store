@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    background: white;
+}
+
+/* Header */
+.header {
+    background: #111;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to left, #ff512f);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Products */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-box {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-box img {
+    width: 100%;
+}
+
+.product-box span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-box button {
+    background: #ff512f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* About */
+.about {
+    background: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contact button {
+    padding: 10px 25px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
